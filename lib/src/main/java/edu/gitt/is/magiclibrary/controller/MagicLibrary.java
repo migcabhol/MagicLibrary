@@ -36,18 +36,18 @@ public class MagicLibrary {
 	 * @param args Actualmente el programa no analiza los par�metros de entrada al main
 	 */
 	public static void main(String[] args) {
-<<<<<<< HEAD
+
 		log.info("Hola soy migcabhol ejecutando la aplicación"); 
 		log.info("Arranco la aplicaci�n y creo el controlador para manejar entidades desde la interfaz");
 		log.log(Level.INFO, "Arranco la aplicaci�n y creo el controlador para manejar entidades desde la interfaz");
-=======
+
 		
 		log.info("Arranco la aplicaci�n y creo el controlador para manejar entidades desde la interfaz");
 		log.log(Level.INFO, "Arranco la aplicaci�n y creo el controlador para manejar entidades desde la interfaz");
 		log.log(Level.INFO, "Arranco la aplicaci�n y creo el controlador para manejar entidades desde la interfaz");
 		log.log(Level.INFO, "Arranco la aplicaci�n y creo el controlador para manejar entidades desde la interfaz");
 
->>>>>>> refs/heads/Practica8_2
+refs/heads/Practica8_2
 
 		bookListener=new BookListener();
 		log.finest("Acabo de crear un objeto de tipo "+BookListener.class.getName());
