@@ -39,6 +39,8 @@ public class MagicLibrary {
 		log.info("Arranco la aplicaci�n y creo el controlador para manejar entidades desde la interfaz");
 		log.log(Level.INFO, "Arranco la aplicaci�n y creo el controlador para manejar entidades desde la interfaz");
 		log.log(Level.INFO, "Arranco la aplicaci�n y creo el controlador para manejar entidades desde la interfaz");
+		log.log(Level.INFO, "Arranco la aplicaci�n y creo el controlador para manejar entidades desde la interfaz");
+
 
 		bookListener=new BookListener();
 		log.finest("Acabo de crear un objeto de tipo "+BookListener.class.getName());
